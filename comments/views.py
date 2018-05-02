@@ -1,5 +1,7 @@
 from django.shortcuts import render,get_object_or_404,redirect
 from blog.models import Post
+from django.utils.decorators import method_decorator
+from django.contrib.auth.decorators import login_required
 
 from .models import Comment
 from .form import CommentForm

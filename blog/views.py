@@ -4,6 +4,8 @@ from .models import Post,Category,Tag
 from comments.form import CommentForm
 from django.views.generic import ListView,DetailView
 import markdown
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
 
 class IndexView(ListView):
     model = Post
@@ -88,6 +90,7 @@ class PostDetailView(DetailView):
     template_name = 'blog/detail.html'
     context_object_name = 'post'
 
+    @method_decorator(login_required(login_url='/users/login/'))
     def get(self,request,*args,**kwargs):
         response=super(PostDetailView,self).get(request,*args,**kwargs)
         self.object.increase_views()

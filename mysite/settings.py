@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '26g%d0pgkq-zf)cysc)=q8p9(dfo01ft#9jj2-tq2tz02+(_sy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','localhost','.hx1310.online']
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'comments',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -118,6 +119,24 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
+AUTH_USER_MODEL='users.User'
+LOGOUT_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'   #email后端
+EMAIL_USE_TLS = False   #是否使用TLS安全传输协议
+EMAIL_USE_SSL = True     #是否使用SSL加密，qq企业邮箱要求使用
+EMAIL_HOST = 'smtp.qq.com'    #发送邮件的邮箱 的 SMTP服务器，这里用了qq企业邮箱
+EMAIL_PORT = 465    #发件箱的SMTP服务器端口
+EMAIL_HOST_USER = '1310320729@qq.com'  #发送邮件的邮箱地址
+EMAIL_HOST_PASSWORD = 'ptanclcksexsjega'  #发送邮件的邮箱密码
+DEFAULT_FROM_EMAIL = 'test <1310320729@qq.com>'
+
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'users.backends.EmailBackend',
+)
 
 STATIC_URL = '/static/'
-STATIC_ROOT=os.path.join(BASE_DIR,'static')
+#STATIC_ROOT=os.path.join(BASE_DIR,'static')
