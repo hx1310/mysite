@@ -24,7 +24,11 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="0">
+=======
+            <state relative-caret-position="546">
+>>>>>>> parent of 7350993... 登录
               <caret line="92" column="64" lean-forward="false" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="64" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
@@ -36,6 +40,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-1127">
               <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
@@ -56,6 +61,10 @@
             <state relative-caret-position="15">
               <caret line="127" column="104" lean-forward="false" selection-start-line="127" selection-start-column="104" selection-end-line="127" selection-end-column="104" />
 >>>>>>> parent of 564b62a... ？？
+=======
+            <state relative-caret-position="154">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+>>>>>>> parent of 7350993... 登录
               <folding />
             </state>
           </provider>
@@ -195,12 +204,17 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="x" value="144" />
     <option name="y" value="15" />
 =======
     <option name="x" value="114" />
     <option name="y" value="38" />
 >>>>>>> parent of 564b62a... ？？
+=======
+    <option name="x" value="26" />
+    <option name="y" value="16" />
+>>>>>>> parent of 7350993... 登录
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -219,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,7 +272,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +452,11 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="144" y="15" width="1400" height="860" extended-state="0" />
+=======
+    <frame x="26" y="16" width="1400" height="860" extended-state="0" />
+>>>>>>> parent of 7350993... 登录
     <editor active="true" />
 =======
     <frame x="114" y="38" width="1400" height="860" extended-state="0" />
@@ -790,7 +808,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
+=======
+        <state relative-caret-position="546">
+>>>>>>> parent of 7350993... 登录
           <caret line="92" column="64" lean-forward="false" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="64" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
@@ -824,6 +846,7 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1127">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
 =======
@@ -832,6 +855,10 @@
         <state relative-caret-position="222">
           <caret line="44" column="49" lean-forward="false" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
 >>>>>>> parent of 564b62a... ？？
+=======
+        <state relative-caret-position="154">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+>>>>>>> parent of 7350993... 登录
           <folding />
         </state>
       </provider>
