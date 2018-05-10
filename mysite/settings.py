@@ -130,7 +130,7 @@ EMAIL_HOST = 'smtp.qq.com'    #发送邮件的邮箱 的 SMTP服务器，这里�
 EMAIL_PORT = 465    #发件箱的SMTP服务器端口
 EMAIL_HOST_USER = '1310320729@qq.com'  #发送邮件的邮箱地址
 EMAIL_HOST_PASSWORD = 'ptanclcksexsjega'  #发送邮件的邮箱密码
-DEFAULT_FROM_EMAIL = 'test <1310320729@qq.com>'
+DEFAULT_FROM_EMAIL = 'hxnosite <1310320729@qq.com>'
 
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 AUTHENTICATION_BACKENDS = (

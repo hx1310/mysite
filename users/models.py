@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 class User(AbstractUser):
     nickname = models.CharField(max_length=50,blank=True)
-    #email = models.EmailField('邮箱',unique=True,error_messages={'unique':"该邮箱地址已被占用。"})
+    email = models.EmailField('email',unique=True,error_messages={'unique':"该邮箱地址已被占用。"})
 
     class Meta(AbstractUser.Meta):
         pass
