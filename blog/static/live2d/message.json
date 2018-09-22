@@ -1,0 +1,86 @@
+{
+    "mouseover": [
+        {
+            "selector": "#site-header > div > div.col-md-4.col-sm-5.col-xs-8 > div > h1 > a",
+            "text": ["你在找什么，需要我的帮助吗？(￣▽￣)~*"]
+        },
+        {
+         "selector": "#bs-example-navbar-collapse-1 > ul > li:nth-child(1) > a",
+            "text": ["点这里可以返回首页哦╮(￣▽￣)╭"]
+        },
+        {
+            "selector": "bs-example-navbar-collapse-1 > ul > li:nth-child(2) > a",
+            "text": ["注册账号站长会很开心的ψ(｀∇´)ψ"]
+        },
+        {
+            "selector": "#bs-example-navbar-collapse-1 > ul > li:nth-child(3) > a",
+            "text": ["登录以后能在这个网站做更多的事哦<(￣︶￣)>"]
+        },
+        {
+            "selector": "#bs-example-navbar-collapse-1 > ul > li:nth-child(4) > a",
+            "text": ["能找到这个网站相信你一定可以联系上站长的(～￣▽￣)～"]
+        },
+        {
+            "selector": "#search-icon",
+            "text": ["站长很懒，搜索功能还没有开发(￣▽￣)"]
+        },
+        {
+            "selector": "h1.entry-title",
+            "text": ["要看看{text}这篇文章吗?(･_･;?  需要先登录哦"]
+        },
+        {
+            "selector": "a.more-link",
+            "text": ["点击这里可以查看这篇文章的详情哦(⊙o⊙) 记得先登录哦"]
+        },
+        {
+            "selector": "body > div.content-body > div > div > aside > div.widget.widget-recent-posts > ul > li > a",
+            "text": ["点击这里可以阅读 《{text}》 这篇文章哦(⊙o⊙) 记得先登录哦"]
+        },
+        {
+            "selector": "body > div.content-body > div > div > aside > div.widget.widget-archives > ul > li > a",
+            "text": ["点击这里可以查看 {text} 这段时间的文章列表哦(⊙o⊙)"]
+        },
+        {
+            "selector": "body > div.content-body > div > div > aside > div.widget.widget-category > ul > li > a",
+            "text": ["点击这里可以查看 '{text}' 分类下的所有文章列表哦(⊙o⊙)"]
+        },
+        {
+            "selector": "body > div.content-body > div > div > aside > div.widget.widget-tag-cloud > ul > li > a",
+            "text": ["点击这里可以查看 '{text}' 标签下的所有文章列表哦(⊙o⊙)"]
+        },
+        {
+            "selector": "input#id_name",
+            "text": ["君の名前は？"]
+        },
+        {
+            "selector": "input#id_email",
+            "text": ["告诉我你的邮箱地址我们就能联系了☆´∀｀☆"]
+        },
+        {
+             "selector": "textarea#id_text",
+            "text": ["来愉快地吐槽吧ﾍ|･∀･|ﾉ*~●"]
+        },
+        {
+           "selector": "body > div.content-body > div > div > main > section > form > div > div.col-md-12 > button > span",
+            "text": ["biubiubiu~~~"]
+        },
+        {
+             "selector": "body > div.content-body > div > div > main > div > a",
+            "text": ["点击这里可以查看第{text}页的文章"]
+        },
+        {
+            "selector": "#landlord #live2d",
+            "text": ["萝莉控是什么？","鼠。。。鼠标放错地方了!"]
+        }
+    ],
+    "click": [
+        {
+            "selector": "#landlord #live2d",
+            "text": ["不要动手动脚的！快把手拿开~~", "真…真的是不知羞耻！","Hentai！", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)"]
+        },
+        {
+            "selector": "h1.entry-titled",
+            "text":["欢迎阅读《{text}》"]
+        }
+    ]
+}

@@ -9,6 +9,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 {% load staticfiles %}
 	    <!-- css -->
+		<link rel="stylesheet" href="{% static '/live2d/css/live2d.css' %}" />
 		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 		<link rel="stylesheet" href="{% static 'blog/css/pace.css' %}">
@@ -27,7 +28,7 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-5 col-xs-8">
 						<div class="logo">
-							<h1><a href="{% url 'blog:index' %}"><b>黑</b> &amp; 白</a></h1>
+							<h1><a href="{% url 'blog:index' %}"><b>こうきん</b>'blog</a></h1>
 						</div>
 					</div><!-- col-md-4 -->
 					<div class="col-md-8 col-sm-7 col-xs-4">
@@ -42,7 +43,7 @@
   								<ul class="nav navbar-nav navbar-right">
     								<li class="cl-effect-11"><a href="{% url 'blog:index' %}" data-hover="首页">首页</a></li>
     								<li class="cl-effect-11"><a href="{% url 'users:register' %}" data-hover="注册">注册</a></li>
-    								<li class="cl-effect-11"><a href="{% url 'users:lead' %}" data-hover="登陆">登陆</a></li>
+    								<li class="cl-effect-11"><a href="{% url 'users:lead' %}" data-hover="登录">登录</a></li>
     								<li class="cl-effect-11"><a href="#" data-hover="联系">联系</a></li>
   								</ul>
 							</div><!-- /.navbar-collapse -->
@@ -125,6 +126,11 @@
 				</div>
 			</div>
 		</div>
+		<div id="landlord">
+			<div class="message" style="opacity:0"></div>
+			<canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+			<div class="hide-button">隐藏</div>
+		</div>
 		<footer id="site-footer">
 			<div class="container">
 				<div class="row">
@@ -147,7 +153,17 @@
 				</ul>
 			</nav>
 		</div>
-		<script type="text/javascript" color="0,0,0" opacity='0.7' zIndex="-3" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+	<!--	<script type="text/javascript" color="0,0,0" opacity='0.7' zIndex="-3" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script> -->
 		<script src="{% static 'blog/js/script.js' %}"></script>
+		<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script>
+			var message_Path = "{% static '/live2d/' %}";
+			var home_Path="https://hx1310.online/"
+		</script>
+		<script type="text/javascript" src="{% static 'live2d/js/live2d.js' %}"></script>
+		<script type="text/javascript" src="{% static 'live2d/js/message.js' %}"></script>
+		<script type="text/javascript">
+    		loadlive2d("live2d", "{% static '/live2d/model/tia/model.json' %}");
+		</script>
 	</body>
 </html>
