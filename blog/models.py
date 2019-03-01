@@ -39,4 +39,7 @@ class Post(models.Model):
         if not self.excerpt:
             self.excerpt=self.body[:54]
         super(Post, self).save(*args,**kwargs)
+    
+    class Meta:
+        ordering = ['-created_time','title']
 # Create your models here.
